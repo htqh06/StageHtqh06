@@ -40,6 +40,8 @@ StageTH/
 ## 数据说明 | Data Notes
 处理后数据目录：`data/Copernicus_processed_data`
 
+数据目录的来源映射、GLORYS 与 SMOS/ESA CCI 的对应关系，见：`data/README.md`
+
 变量与命名：
 - `so_*` (salinity / SSS)
 - `thetao_*` (temperature / SST)

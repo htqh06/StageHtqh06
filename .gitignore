@@ -21,7 +21,8 @@ venv/
 env/
 
 # Data and large generated artifacts
-data/
+data/*
+!data/README.md
 Code/data/
 *.npy
 *.npz
