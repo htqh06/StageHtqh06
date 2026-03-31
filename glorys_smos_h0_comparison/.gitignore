@@ -1,0 +1,14 @@
+# Keep the comparison code and lightweight deliverables, but ignore bulky run outputs.
+results/pilot_20100109_20100207/**
+results/smoke_20100109/**
+results/full_20100109_20231230_fwhm40_every30/**
+results/full_20100109_20231230_fwhm30_50_every30_clean/**
+
+!results/fwhm_30_40_50_comparison_common_dates.csv
+!results/fwhm_30_40_50_comparison_common_dates.md
+!results/fwhm_30_40_50_60_comparison_common_dates.csv
+!results/fwhm_30_40_50_60_comparison_common_dates.md
+!results/representative_case_20190221_40_60km.csv
+
+# Generated intermediates for the report can be rebuilt from the markdown source.
+docs/*.html

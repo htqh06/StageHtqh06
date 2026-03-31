@@ -1,0 +1,137 @@
+@page {
+    size: A4;
+    margin: 16mm 15mm 18mm 15mm;
+}
+
+body {
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #17212b;
+    line-height: 1.45;
+    font-size: 11pt;
+}
+
+h1,
+h2,
+h3 {
+    color: #0f3557;
+    margin-bottom: 0.35rem;
+}
+
+h1 {
+    font-size: 24pt;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 15pt;
+    border-bottom: 1px solid #c9d6e2;
+    padding-bottom: 0.15rem;
+    margin-top: 1.3rem;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-top: 1rem;
+}
+
+p,
+li {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.6rem 0 0.9rem 0;
+    font-size: 10pt;
+}
+
+th,
+td {
+    border: 1px solid #c7d1db;
+    padding: 0.35rem 0.45rem;
+}
+
+th {
+    background: #e9f0f6;
+}
+
+tr:nth-child(even) td {
+    background: #f8fafc;
+}
+
+.cover {
+    border: 1px solid #c9d6e2;
+    background: linear-gradient(180deg, #f4f8fb 0%, #ffffff 100%);
+    padding: 1.1rem 1.2rem 0.9rem 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    margin-top: 0.4rem;
+    font-size: 12pt;
+    color: #44627d;
+}
+
+.meta {
+    margin-top: 0.75rem;
+    font-size: 9.5pt;
+    color: #4d6479;
+}
+
+.equation {
+    margin: 0.55rem 0;
+    padding: 0.45rem 0.7rem;
+    border-left: 3px solid #7da6cc;
+    background: #f6f9fc;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 10.5pt;
+}
+
+.highlight-box {
+    background: #f6fbf6;
+    border: 1px solid #c8ddc6;
+    padding: 0.7rem 0.8rem;
+    margin: 0.8rem 0;
+}
+
+.two-col {
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+    margin: 0.7rem 0 1rem 0;
+}
+
+.two-col > div {
+    flex: 1;
+}
+
+.figure-block {
+    margin: 0.7rem 0 1rem 0;
+}
+
+.figure-block img,
+.two-col img {
+    width: 100%;
+    border: 1px solid #d7e0e8;
+}
+
+.caption {
+    margin-top: 0.28rem;
+    font-size: 9pt;
+    color: #4a5b6b;
+}
+
+.small-note {
+    font-size: 9pt;
+    color: #607486;
+}
+
+.page-break {
+    page-break-before: always;
+}
+
+code {
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 9.8pt;
+}

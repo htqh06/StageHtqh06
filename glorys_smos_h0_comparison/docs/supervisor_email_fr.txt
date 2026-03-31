@@ -1,0 +1,15 @@
+Objet : Mise a jour sur la comparaison GLORYS / ESA CCI SSS
+
+Bonjour,
+
+J'ai finalise une synthese en anglais sur la comparaison entre GLORYS et ESA CCI SSS dans l'espace d'observation, avec un test de sensibilite de la largeur de lissage gaussien entre 30 km et 60 km.
+
+Le resultat principal est que la configuration 60 km est actuellement la meilleure parmi les cas testes. Sur la periode commune de 2010-01-09 a 2023-12-30, elle ameliore de facon monotone le RMSE, la correlation, le SSIM et les indicateurs de mismatch de gradient par rapport a 50 km, 40 km et 30 km. En particulier, par rapport a 40 km, le RMSE moyen baisse d'environ 5.8 % et le quantile q95 du mismatch de gradient baisse d'environ 9.9 %.
+
+J'ai aussi inclus un cas representatif du 21/02/2019 et plusieurs figures de synthese dans le rapport PDF. Cela suggere que l'empreinte effective de l'observation est probablement plus large que 40 km dans notre configuration actuelle.
+
+La prochaine etape logique serait de tester 70 km et 80 km afin de verifier si la performance continue a s'ameliorer ou si un optimum est atteint.
+
+Bien cordialement,
+
+[Votre nom]
